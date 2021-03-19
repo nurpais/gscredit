@@ -33,7 +33,7 @@ module.exports = merge(common, {
           { loader: "css-loader" },
           // { loader: "postcss-loader", options: { sourceMap: true } },
           {
-            loader: "fast-sass-loader",
+            loader: "sass-loader",
           },
         ],
       },
