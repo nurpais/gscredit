@@ -1,0 +1,30 @@
+// ABSTRACT
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/classes";
+
+// BOOTSTRAP
+@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+// SWIPER
+@import "../../node_modules/swiper/swiper.scss";
+@import "../../node_modules/swiper/components/pagination/pagination.scss";
+
+// BASE
+@import "base/reset";
+@import "base/base";
+@import "base/typography";
+
+// LAYOUTS
+@import "layouts/navbar";
+@import "layouts/header";
+@import "layouts/footer";
+
+// COMPONENTS
+@import "components/buttons";
+
+// PAGES
+@import "pages/home";
