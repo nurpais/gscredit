@@ -1,0 +1,129 @@
+.steps {
+  background-color: $primary;
+  border-radius: 25px;
+  padding: 104px 20px 76px;
+  position: relative;
+  margin-top: 218px;
+
+  &__img {
+    position: absolute;
+    top: -218px;
+    left: 50%;
+    transform: translateX(calc(-50% + 10px));
+  }
+
+  &__heading {
+    color: #fff;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 48px;
+    -webkit-text-stroke: 1px $dark;
+    text-shadow: -1px 2px 0px $dark;
+  }
+
+  &__subheading {
+    font-size: 18px;
+    line-height: 28px;
+    color: $dark;
+    font-weight: 700;
+  }
+
+  &__list {
+    text-align: left;
+    margin-left: -32px;
+    position: relative;
+    z-index: 10;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      height: 170px;
+      border-left: 2px dashed $dark;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+    min-height: 78px;
+    min-width: 323px;
+
+    img {
+      margin-right: 20px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    opacity: 1 !important;
+
+    &:hover {
+      background-color: darken($dark, 4%);
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 114px 80px 77px;
+
+    &__heading {
+      font-size: 38px;
+    }
+
+    &__img {
+      transform: translateX(-50%);
+    }
+
+    &__list {
+      display: flex;
+      margin: 0;
+
+      &::before {
+        content: "";
+        left: 50%;
+        top: 40px;
+        width: 620px;
+        height: 0;
+        border-left: 0;
+        border-bottom: 2px dashed $dark;
+        transform: translateX(-50%);
+        z-index: -1;
+      }
+    }
+
+    &__list-item {
+      min-width: initial;
+      flex-direction: column;
+      flex: 1;
+      font-size: 18px;
+
+      img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 60px;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    &__list {
+      &::before {
+        width: 640px;
+      }
+    }
+  }
+}

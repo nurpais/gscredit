@@ -1,0 +1,44 @@
+.footer {
+  background-color: #fff;
+  padding: 20px 0;
+
+  &__nav-item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__nav-link {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+  }
+
+  @include media-breakpoint-up(md) {
+    &__nav {
+      columns: 2;
+    }
+
+    &__nav-link {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &__nav {
+      columns: initial;
+      display: flex;
+    }
+
+    &__nav-item {
+      &:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 40px;
+      }
+    }
+
+    .row {
+      align-items: center;
+    }
+  }
+}
