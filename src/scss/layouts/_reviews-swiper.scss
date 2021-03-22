@@ -1,0 +1,44 @@
+.reviews-swiper-navigation-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  @include media-breakpoint-up(md) {
+    align-items: center;
+  }
+}
+
+.reviews-swiper-navigation {
+  display: flex;
+  zoom: 0.5;
+  margin-bottom: 20px;
+
+  & > * {
+    color: $primary;
+    cursor: pointer;
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:last-child {
+      transform: rotate(180deg);
+    }
+  }
+
+  .swiper-button-disabled {
+    color: $disabled;
+  }
+
+  @include media-breakpoint-up(md) {
+    zoom: 1;
+    margin-bottom: 0;
+
+    & > * {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}

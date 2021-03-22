@@ -22,12 +22,14 @@
 @import "layouts/navbar";
 @import "layouts/header";
 @import "layouts/loans-swiper";
+@import "layouts/reviews-swiper";
 @import "layouts/footer";
 
 // COMPONENTS
 @import "components/buttons";
 @import "components/advantage-card";
 @import "components/loan-card";
+@import "components/review-card";
 
 // PAGES
 @import "pages/home";
