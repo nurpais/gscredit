@@ -11,7 +11,7 @@
 
 // SWIPER
 @import "../../node_modules/swiper/swiper.scss";
-@import "../../node_modules/swiper/components/pagination/pagination.scss";
+// @import "../../node_modules/swiper/components/pagination/pagination.scss";
 
 // BASE
 @import "base/reset";
@@ -21,10 +21,13 @@
 // LAYOUTS
 @import "layouts/navbar";
 @import "layouts/header";
+@import "layouts/loans-swiper";
 @import "layouts/footer";
 
 // COMPONENTS
 @import "components/buttons";
+@import "components/advantage-card";
+@import "components/loan-card";
 
 // PAGES
 @import "pages/home";

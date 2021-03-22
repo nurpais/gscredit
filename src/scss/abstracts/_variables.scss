@@ -1,11 +1,13 @@
 $primary: #5ad9ac;
 $dark: #273152;
 $light: #8490a5;
+$gray: #f4f5fa;
 
 $theme-colors: (
   "primary": $primary,
   "dark": $dark,
   "light": $light,
+  "gray": $gray,
 );
 
 // CONTAINER
@@ -31,9 +33,11 @@ $spacers: (
   5px: 5px,
   10px: 10px,
   15px: 15px,
+  16px: 16px,
   20px: 20px,
   25px: 25px,
   30px: 30px,
+  32px: 32px,
   35px: 35px,
   40px: 40px,
   45px: 45px,

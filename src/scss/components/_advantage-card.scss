@@ -1,0 +1,33 @@
+.advantage-cards {
+  display: grid;
+  gap: 35px;
+
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 56px;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 56px 110px;
+  }
+}
+
+.advantage-card {
+  text-align: center;
+  max-width: 320px;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+
+  &__icon {
+    min-height: 84px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: flex-end;
+  }
+}

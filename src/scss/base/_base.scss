@@ -32,3 +32,52 @@ button {
   font-family: inherit;
   font-size: inherit;
 }
+
+.section {
+  padding: 50px 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: 100px 0;
+  }
+}
+
+.bg-lines {
+  position: relative;
+  z-index: 10;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    max-width: 750px;
+    background-image: url(../images/svg/bg-line-left.svg);
+    background-position: left top;
+    height: 100%;
+    max-height: 358px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    max-width: 850px;
+    background-image: url(../images/svg/bg-line-right.svg);
+    background-position: right bottom;
+    height: 100%;
+    max-height: 218px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #ffffff 23.44%, #f4f5fa 100%) !important;
+}

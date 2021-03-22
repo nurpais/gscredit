@@ -185,6 +185,10 @@
   }
 }
 
+.navbar--sticky {
+  box-shadow: 0 3px 3px rgb(23 43 77 / 8%);
+}
+
 .navbar-active .navbar__content {
   transform: translateY(0);
 }
