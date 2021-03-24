@@ -30,10 +30,37 @@
   font-size: 14px;
 }
 
+.text-md {
+  font-size: 18px;
+}
+
 .text-lg {
   font-size: 20px;
 }
 
 .text-xxl {
   font-size: 24px;
+}
+
+@include media-breakpoint-up(lg) {
+  .text-lg-xs {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .text-lg-sm {
+    font-size: 14px;
+  }
+
+  .text-lg-md {
+    font-size: 18px;
+  }
+
+  .text-lg-lg {
+    font-size: 20px;
+  }
+
+  .text-lg-xxl {
+    font-size: 24px;
+  }
 }

@@ -1,0 +1,24 @@
+.blog-swiper {
+  padding-bottom: 35px;
+
+  @include media-breakpoint-down(md) {
+    margin: 0 -7px;
+  }
+
+  .swiper-pagination {
+    bottom: 0;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: $disabled;
+    opacity: 1;
+    width: 20px;
+    height: 5px;
+    border-radius: 20px;
+    margin: 0 5px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $primary;
+  }
+}

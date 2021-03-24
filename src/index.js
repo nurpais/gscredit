@@ -5,3 +5,5 @@ import "./scss/main.scss";
 import "./js/navbar";
 import "./js/loans-swiper";
 import "./js/reviews-swiper";
+import "./js/blog-swiper";
+import "./js/accordion";
