@@ -26,6 +26,7 @@
 @import "layouts/blog-swiper";
 @import "layouts/steps";
 @import "layouts/footer";
+@import "layouts/cta-questions";
 @import "layouts/accordion";
 
 // COMPONENTS
@@ -33,6 +34,8 @@
 @import "components/advantage-card";
 @import "components/loan-card";
 @import "components/review-card";
+@import "components/use-card";
 
 // PAGES
 @import "pages/home";
+@import "pages/loan";

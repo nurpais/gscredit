@@ -43,7 +43,7 @@ button {
 
 .bg-lines {
   position: relative;
-  z-index: 10;
+  z-index: 5;
 
   &::before {
     content: "";
@@ -75,6 +75,16 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
+  }
+
+  &--light {
+    &::before {
+      background-image: url(../images/svg/bg-line-left-light.svg);
+    }
+
+    &::after {
+      background-image: url(../images/svg/bg-line-right-light.svg);
+    }
   }
 }
 
