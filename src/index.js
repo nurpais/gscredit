@@ -7,3 +7,4 @@ import "./js/loans-swiper";
 import "./js/reviews-swiper";
 import "./js/blog-swiper";
 import "./js/accordion";
+import "./js/blog-category";

@@ -81,6 +81,13 @@ module.exports = {
       minify: false,
       scriptLoading: "blocking",
     }),
+
+    new HtmlWebpackPlugin({
+      template: paths.src + "/blog.html",
+      filename: "blog.html",
+      minify: false,
+      scriptLoading: "blocking",
+    }),
   ],
   // Determine how modules within the project are treated
   module: {

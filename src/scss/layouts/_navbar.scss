@@ -322,18 +322,26 @@
 }
 
 .navbar-fixed {
-  position: fixed;
-  width: 100%;
+  position: sticky;
   top: 0;
   z-index: 100;
+}
 
-  & + * {
-    margin-top: 30px;
+@include media-breakpoint-up(lg) {
+  .navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+
+    & + * {
+      margin-top: 30px;
+    }
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .navbar--transparent {
+  .navbar--transparent:not(.navbar--sticky) {
     .dropdown {
       &__trigger {
         &::after {
