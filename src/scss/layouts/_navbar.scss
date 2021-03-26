@@ -58,9 +58,9 @@
       width: 100%;
       height: 100vh;
       z-index: -1;
-      background-image: url(../images/mobile-nav-bg.png);
+      background-image: url(../images/svg/bg-line-right.svg);
       background-repeat: no-repeat;
-      background-position: center bottom;
+      background-position: right bottom;
       background-color: #fff;
       transition: transform 0.2s ease;
       transform: translateY(-100%);

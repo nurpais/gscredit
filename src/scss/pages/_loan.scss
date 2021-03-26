@@ -55,3 +55,8 @@
     transform: translateY(9px);
   }
 }
+.loan-img-wrapper {
+  @include media-breakpoint-down(md) {
+    margin: -22px;
+  }
+}

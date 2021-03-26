@@ -26,65 +26,72 @@ module.exports = {
     // }),
 
     // Generates an HTML file from a template
-    new HtmlWebpackPlugin({
-      template: paths.src + "/index.html",
-      filename: "index.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/index.html",
+    //   filename: "index.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/personal-loan.html",
+    //   filename: "personal-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/foreigner-loan.html",
+    //   filename: "foreigner-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/debt-loan.html",
+    //   filename: "debt-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/wedding-loan.html",
+    //   filename: "wedding-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/business-loan.html",
+    //   filename: "business-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/home-loan.html",
+    //   filename: "home-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/medical-loan.html",
+    //   filename: "medical-loan.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
+
+    // new HtmlWebpackPlugin({
+    //   template: paths.src + "/blog.html",
+    //   filename: "blog.html",
+    //   minify: false,
+    //   scriptLoading: "blocking",
+    // }),
 
     new HtmlWebpackPlugin({
-      template: paths.src + "/personal-loan.html",
-      filename: "personal-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/foreigner-loan.html",
-      filename: "foreigner-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/debt-loan.html",
-      filename: "debt-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/wedding-loan.html",
-      filename: "wedding-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/business-loan.html",
-      filename: "business-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/home-loan.html",
-      filename: "home-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/medical-loan.html",
-      filename: "medical-loan.html",
-      minify: false,
-      scriptLoading: "blocking",
-    }),
-
-    new HtmlWebpackPlugin({
-      template: paths.src + "/blog.html",
-      filename: "blog.html",
+      template: paths.src + "/blog-post.html",
+      filename: "blog-post.html",
       minify: false,
       scriptLoading: "blocking",
     }),
