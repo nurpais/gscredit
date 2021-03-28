@@ -1,0 +1,14 @@
+.awwards-section {
+  background-color: $gray;
+  padding: 90px 0;
+  overflow-x: auto;
+  margin-top: -58px;
+
+  &__list > *:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: -70px;
+  }
+}

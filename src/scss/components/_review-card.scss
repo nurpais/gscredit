@@ -18,3 +18,22 @@
     z-index: -1;
   }
 }
+
+.reviews-cols {
+  margin: -15px;
+  & > * {
+    margin: 15px;
+  }
+  @include media-breakpoint-up(md) {
+    columns: 2;
+
+    margin: -25px -45px;
+    & > * {
+      margin: 25px 45px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    columns: 3;
+  }
+}

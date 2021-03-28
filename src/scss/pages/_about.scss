@@ -1,0 +1,13 @@
+.about-header {
+  padding-top: 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+
+  @include media-breakpoint-down(md) {
+    &__img {
+      padding-left: 30px;
+      min-width: 366px;
+    }
+  }
+}

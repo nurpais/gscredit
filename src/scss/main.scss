@@ -29,6 +29,9 @@
 @import "layouts/cta-questions";
 @import "layouts/accordion";
 @import "layouts/section-app";
+@import "layouts/section-awwards";
+@import "layouts/career-accordion";
+@import "layouts/security-section";
 
 // COMPONENTS
 @import "components/buttons";
@@ -38,8 +41,11 @@
 @import "components/use-card";
 @import "components/blog-card";
 @import "components/blog-search";
+@import "components/form";
 
 // PAGES
 @import "pages/home";
 @import "pages/loan";
 @import "pages/blog";
+@import "pages/about";
+@import "pages/apply";

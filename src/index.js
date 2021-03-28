@@ -8,3 +8,4 @@ import "./js/reviews-swiper";
 import "./js/blog-swiper";
 import "./js/accordion";
 import "./js/blog-category";
+import "./js/form";

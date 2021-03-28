@@ -5,7 +5,7 @@
 
   &__header {
     min-height: 80px;
-    padding: 20px 0 22px;
+    padding: 20px 44px 22px 0;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -22,7 +22,7 @@
       background-image: url(../images/svg/dropdown-open.svg);
       background-repeat: no-repeat;
       background-position: center;
-      display: none;
+      // display: none;
     }
   }
 
