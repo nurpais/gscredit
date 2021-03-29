@@ -127,3 +127,10 @@
     }
   }
 }
+
+.calc-steps {
+  padding-top: 238px;
+  @include media-breakpoint-up(md) {
+    padding-top: 216px;
+  }
+}

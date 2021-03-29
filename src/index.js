@@ -9,3 +9,4 @@ import "./js/blog-swiper";
 import "./js/accordion";
 import "./js/blog-category";
 import "./js/form";
+import "./js/calc";
